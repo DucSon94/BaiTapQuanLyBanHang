@@ -83,7 +83,7 @@ public class HoaDonBanHang {
                 sp = iterator.next();
                 if (sp.getMa() == maSanPham) {
                     maSanPhamTonTai++;
-
+                    break; // vua them            
                 }
             }
             if (maSanPhamTonTai > 0) {

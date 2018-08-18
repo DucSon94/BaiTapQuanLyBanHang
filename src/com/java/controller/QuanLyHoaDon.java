@@ -26,7 +26,7 @@ public class QuanLyHoaDon {
     public void hienThiThongTinDanhSachHoaDonNhapHang() {
         if (danhSachHoaDonNhapHang.size() > 0) {
             for (HoaDonNhapHang hoaDonNhapHang : danhSachHoaDonNhapHang) {
-                hoaDonNhapHang.hienThongTinHoaDonNhapVao();
+                hoaDonNhapHang.InHoaDonNhapHang();
             }
         } else {
             System.out.println("Không có thông tin hóa đơn nhập hàng nào");

@@ -127,7 +127,7 @@ public class HoaDonNhapHang {
                         nv = nhanVien;
                         danhSachNhanVienCoCungTen.add(nv);
                         nv.hienThongTin();
-                    }
+                    
 
                     System.out.println("neu ban la nhan vien da co trong dnah sach vui long bam 1 . neu la nhan vien moi vui long bam 2");
                     int luaChon = new Scanner(System.in).nextInt();
@@ -150,8 +150,10 @@ public class HoaDonNhapHang {
                             break;
                     }
                 }
+            }
             } else {
                 nv = new NhanVien(tenNhanvien);
+                this.nhanVien = nv;
                 QuanLyNhanVien.themNhanVien(nv);
 
             }
